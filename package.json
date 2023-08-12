@@ -1,9 +1,12 @@
 {
   "name": "goit-node-hw-1",
   "version": "1.0.0",
+  "type": "module",
   "description": "nodeJs_hw_1",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +19,12 @@
     "goit"
   ],
   "author": "Yazikov",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^4.0.2"
+  }
 }
